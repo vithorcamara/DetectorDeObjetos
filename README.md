@@ -5,7 +5,7 @@ Este projeto utiliza a rede YOLO (You Only Look Once) para detecção de objetos
 ## Funcionalidades
 
 - **Ligar/Desligar Câmera:** Permite iniciar e parar a captura de vídeo da webcam.
-- **Selecionar Vídeo:** Permite selecionar um arquivo de vídeo para detecção de objetos.
+- **Selecionar/Parar Vídeo:** Permite selecionar e parar um arquivo de vídeo para detecção de objetos.
 - **Selecionar Imagem:** Permite selecionar uma imagem para detecção de objetos.
 
 ## Requisitos
@@ -26,7 +26,7 @@ Este projeto utiliza a rede YOLO (You Only Look Once) para detecção de objetos
 
 2. Instale as dependências:
     ```bash
-    pip install opencv-python-headless numpy pillow
+    pip install opencv-python numpy pillow
     ```
 
 3. Baixe os arquivos do YOLO:
@@ -42,10 +42,11 @@ Este projeto utiliza a rede YOLO (You Only Look Once) para detecção de objetos
     ```bash
     python main.py
     ```
+    - Outra opção é usar o `main.ipynb` com a extensão do Jupyter no VS Code (Ou no próprio Anaconda Navigator)
 
 2. Na interface gráfica, você pode:
     - **Ligar/Desligar a Câmera** para capturar vídeo em tempo real da webcam.
-    - **Selecionar Vídeo** para escolher um arquivo de vídeo e detectar objetos.
+    - **Selecionar/Parar Vídeo** para escolher um arquivo de vídeo e detectar objetos.
     - **Selecionar Imagem** para escolher uma imagem e detectar objetos.
 
 ## Estrutura do Projeto
